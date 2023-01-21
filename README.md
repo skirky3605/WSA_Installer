@@ -1,5 +1,3 @@
-# WSA_Installer
-
 <p align="center">
   <a href="https://github.com/skirky3605/WSA_Installer">
     <img src="images/ICON.png" alt="Logo" width="80" height="80">
@@ -10,6 +8,4 @@
   <p align="center">
     An installer for the Windows Subsystem For Android™.
   </p>
-  <br/>
-  <br/>
 </p>
