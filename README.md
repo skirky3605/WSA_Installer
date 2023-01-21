@@ -1,5 +1,5 @@
+<h1 align="center">Coming Soon</h1>
 <p align="center">
-  <h1 align="center">Coming Soon</h1>
   <a href="https://github.com/skirky3605/WSA_Installer">
 	<img src="images/ICON.png" alt="Logo" width="80" height="80">
   </a>
