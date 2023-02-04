@@ -1,0 +1,6 @@
+﻿<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <History>True|2023-01-21T04:58:58.9383816Z;True|2023-01-21T12:56:21.0127866+08:00;False|2023-01-21T12:53:45.4360568+08:00;True|2023-01-19T20:20:07.1456298+08:00;True|2023-01-19T20:19:25.6825432+08:00;True|2023-01-19T20:17:46.6919929+08:00;False|2023-01-19T20:09:56.7699680+08:00;True|2023-01-19T20:09:34.1047953+08:00;False|2023-01-19T20:06:05.4380111+08:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

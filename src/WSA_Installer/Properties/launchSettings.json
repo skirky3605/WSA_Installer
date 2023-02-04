@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "WSA_Installer (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "WSA_Installer (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

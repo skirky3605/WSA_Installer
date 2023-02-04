@@ -1,0 +1,21 @@
+<!-- Copyright (c) Microsoft Corporation and Contributors. -->
+<!-- Licensed under the MIT License. -->
+
+<Page
+    x:Class="WSA_Installer.Views.FailedPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WSA_Installer.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel Margin="0,40" HorizontalAlignment="Center" VerticalAlignment="Top">
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <FontIcon VerticalAlignment="Bottom"  FontFamily="Segoe Fluent Icons" Glyph="&#xEB90;" FontSize="40" Foreground="IndianRed"/>
+            <TextBlock HorizontalAlignment="Center" Text="很抱歉,安装失败了" FontSize="40"/>
+        </StackPanel>
+        <TextBlock Margin="0,20" TextWrapping="Wrap" FontSize="16" HorizontalAlignment="Center" x:Name="ErrorMessage"/>
+        <Button HorizontalAlignment="Center" VerticalAlignment="Bottom" x:Name="FeedBackButton" Content="帮助我们修复这个问题" Click="Button_Click"/>
+    </StackPanel>
+</Page>

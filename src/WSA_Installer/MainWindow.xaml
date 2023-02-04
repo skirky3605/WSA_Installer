@@ -1,0 +1,32 @@
+<!-- Copyright (c) Microsoft Corporation and Contributors. -->
+<!-- Licensed under the MIT License. -->
+
+<windowex:WindowEx
+    x:Class="WSA_Installer.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WSA_Installer"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:windowex="using:WinUIEx"
+    mc:Ignorable="d">
+    <windowex:WindowEx.Backdrop>
+        <windowex:MicaSystemBackdrop/>
+    </windowex:WindowEx.Backdrop>
+
+    <Grid>
+        <Grid x:Name="AppTitleBar"
+              Canvas.ZIndex="1"
+              Height="32"
+              IsHitTestVisible="True"
+              VerticalAlignment="Top">
+        </Grid>
+        <!--<AppBarButton Canvas.ZIndex="299">
+            <AppBarButton.Content>
+                <SymbolIcon Symbol="Back"/>
+            </AppBarButton.Content>
+        </AppBarButton>-->
+        <Frame Margin="0,28" x:Name="ContentArea"/>
+    </Grid>
+    
+</windowex:WindowEx>

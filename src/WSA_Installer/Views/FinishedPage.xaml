@@ -1,0 +1,25 @@
+<!-- Copyright (c) Microsoft Corporation and Contributors. -->
+<!-- Licensed under the MIT License. -->
+
+<Page
+    x:Class="WSA_Installer.Views.FinishedPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WSA_Installer.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid x:Name="ContentArea" Margin="0,40">
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top">
+            <FontIcon VerticalAlignment="Bottom" Margin="0,2" FontFamily="Segoe Fluent Icons" FontSize="40" Glyph="&#xEC61;" Foreground="LawnGreen"/>
+            <TextBlock Text="安装完成!" FontSize="40"/>
+        </StackPanel>
+        <Button HorizontalAlignment="Center" VerticalAlignment="Bottom" Click="Button_Click">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="打开WSA设置"/>
+                <FontIcon FontFamily="Segoe Fluent Icons" Glyph="&#xE72D;" Margin="5,0" VerticalAlignment="Bottom" FontSize="16"/>
+            </StackPanel>
+        </Button>
+    </Grid>
+</Page>
